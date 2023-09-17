@@ -1,0 +1,4314 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "YaftaMobile",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "YaftaMobile"
+      },
+      {
+        "kind": "Import",
+        "name": "AppTrackingTransparency",
+        "printedName": "AppTrackingTransparency",
+        "declKind": "Import",
+        "moduleName": "YaftaMobile"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "YaftaMobile",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "YMConfig",
+        "printedName": "YMConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "loggingEnabled",
+            "printedName": "loggingEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@YaftaMobile@objc(cs)YMConfig(py)loggingEnabled",
+            "mangledName": "$s11YaftaMobile8YMConfigC14loggingEnabledSbvp",
+            "moduleName": "YaftaMobile",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@YaftaMobile@objc(cs)YMConfig(im)loggingEnabled",
+                "mangledName": "$s11YaftaMobile8YMConfigC14loggingEnabledSbvg",
+                "moduleName": "YaftaMobile",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@YaftaMobile@objc(cs)YMConfig(im)setLoggingEnabled:",
+                "mangledName": "$s11YaftaMobile8YMConfigC14loggingEnabledSbvs",
+                "moduleName": "YaftaMobile",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11YaftaMobile8YMConfigC14loggingEnabledSbvM",
+                "mangledName": "$s11YaftaMobile8YMConfigC14loggingEnabledSbvM",
+                "moduleName": "YaftaMobile",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "testModeEnabled",
+            "printedName": "testModeEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@YaftaMobile@objc(cs)YMConfig(py)testModeEnabled",
+            "mangledName": "$s11YaftaMobile8YMConfigC15testModeEnabledSbvp",
+            "moduleName": "YaftaMobile",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@YaftaMobile@objc(cs)YMConfig(im)testModeEnabled",
+                "mangledName": "$s11YaftaMobile8YMConfigC15testModeEnabledSbvg",
+                "moduleName": "YaftaMobile",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@YaftaMobile@objc(cs)YMConfig(im)setTestModeEnabled:",
+                "mangledName": "$s11YaftaMobile8YMConfigC15testModeEnabledSbvs",
+                "moduleName": "YaftaMobile",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11YaftaMobile8YMConfigC15testModeEnabledSbvM",
+                "mangledName": "$s11YaftaMobile8YMConfigC15testModeEnabledSbvM",
+                "moduleName": "YaftaMobile",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "YMConfig",
+                "printedName": "YaftaMobile.YMConfig",
+                "usr": "c:@M@YaftaMobile@objc(cs)YMConfig"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@YaftaMobile@objc(cs)YMConfig(im)init",
+            "mangledName": "$s11YaftaMobile8YMConfigCACycfc",
+            "moduleName": "YaftaMobile",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@YaftaMobile@objc(cs)YMConfig",
+        "mangledName": "$s11YaftaMobile8YMConfigC",
+        "moduleName": "YaftaMobile",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "YaftaMobile",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "YMNativeAdDelegate",
+        "printedName": "YMNativeAdDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didClicked",
+            "printedName": "didClicked(nativeAd:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "YMNativeAd",
+                "printedName": "YaftaMobile.YMNativeAd",
+                "usr": "c:@M@YaftaMobile@objc(cs)YMNativeAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@YaftaMobile@objc(pl)YMNativeAdDelegate(im)didClickedWithNativeAd:",
+            "mangledName": "$s11YaftaMobile18YMNativeAdDelegateP10didClicked06nativeD0yAA0cD0C_tF",
+            "moduleName": "YaftaMobile",
+            "genericSig": "<τ_0_0 where τ_0_0 : YaftaMobile.YMNativeAdDelegate>",
+            "sugared_genericSig": "<Self where Self : YaftaMobile.YMNativeAdDelegate>",
+            "protocolReq": true,
+            "objc_name": "didClickedWithNativeAd:",
+            "declAttributes": [
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didRecordImpression",
+            "printedName": "didRecordImpression(nativeAd:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "YMNativeAd",
+                "printedName": "YaftaMobile.YMNativeAd",
+                "usr": "c:@M@YaftaMobile@objc(cs)YMNativeAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@YaftaMobile@objc(pl)YMNativeAdDelegate(im)didRecordImpressionWithNativeAd:",
+            "mangledName": "$s11YaftaMobile18YMNativeAdDelegateP19didRecordImpression06nativeD0yAA0cD0C_tF",
+            "moduleName": "YaftaMobile",
+            "genericSig": "<τ_0_0 where τ_0_0 : YaftaMobile.YMNativeAdDelegate>",
+            "sugared_genericSig": "<Self where Self : YaftaMobile.YMNativeAdDelegate>",
+            "protocolReq": true,
+            "objc_name": "didRecordImpressionWithNativeAd:",
+            "declAttributes": [
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@YaftaMobile@objc(pl)YMNativeAdDelegate",
+        "mangledName": "$s11YaftaMobile18YMNativeAdDelegateP",
+        "moduleName": "YaftaMobile",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "YaftaMobile",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "YaftaMobile",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "YMAds",
+        "printedName": "YMAds",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "SDK_VERSION",
+            "printedName": "SDK_VERSION",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11YaftaMobile5YMAdsC11SDK_VERSIONSSvp",
+            "mangledName": "$s11YaftaMobile5YMAdsC11SDK_VERSIONSSvp",
+            "moduleName": "YaftaMobile",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11YaftaMobile5YMAdsC11SDK_VERSIONSSvg",
+                "mangledName": "$s11YaftaMobile5YMAdsC11SDK_VERSIONSSvg",
+                "moduleName": "YaftaMobile",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "config",
+            "printedName": "config",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "YaftaMobile.YMConfig?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "YMConfig",
+                    "printedName": "YaftaMobile.YMConfig",
+                    "usr": "c:@M@YaftaMobile@objc(cs)YMConfig"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11YaftaMobile5YMAdsC6configAA8YMConfigCSgvp",
+            "mangledName": "$s11YaftaMobile5YMAdsC6configAA8YMConfigCSgvp",
+            "moduleName": "YaftaMobile",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "YaftaMobile.YMConfig?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YMConfig",
+                        "printedName": "YaftaMobile.YMConfig",
+                        "usr": "c:@M@YaftaMobile@objc(cs)YMConfig"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11YaftaMobile5YMAdsC6configAA8YMConfigCSgvg",
+                "mangledName": "$s11YaftaMobile5YMAdsC6configAA8YMConfigCSgvg",
+                "moduleName": "YaftaMobile",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "appID",
+            "printedName": "appID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11YaftaMobile5YMAdsC5appIDSSSgvp",
+            "mangledName": "$s11YaftaMobile5YMAdsC5appIDSSSgvp",
+            "moduleName": "YaftaMobile",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11YaftaMobile5YMAdsC5appIDSSSgvg",
+                "mangledName": "$s11YaftaMobile5YMAdsC5appIDSSSgvg",
+                "moduleName": "YaftaMobile",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "initialized",
+            "printedName": "initialized",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11YaftaMobile5YMAdsC11initializedSbvp",
+            "mangledName": "$s11YaftaMobile5YMAdsC11initializedSbvp",
+            "moduleName": "YaftaMobile",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11YaftaMobile5YMAdsC11initializedSbvg",
+                "mangledName": "$s11YaftaMobile5YMAdsC11initializedSbvg",
+                "moduleName": "YaftaMobile",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(appID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@YaftaMobile@objc(cs)YMAds(cm)initializeWithAppID:",
+            "mangledName": "$s11YaftaMobile5YMAdsC10initialize5appIDySS_tFZ",
+            "moduleName": "YaftaMobile",
+            "static": true,
+            "objc_name": "initializeWithAppID:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(appID:config:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "YaftaMobile.YMConfig?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "YMConfig",
+                    "printedName": "YaftaMobile.YMConfig",
+                    "usr": "c:@M@YaftaMobile@objc(cs)YMConfig"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11YaftaMobile5YMAdsC10initialize5appID6configySS_AA8YMConfigCSgtFZ",
+            "mangledName": "$s11YaftaMobile5YMAdsC10initialize5appID6configySS_AA8YMConfigCSgtFZ",
+            "moduleName": "YaftaMobile",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@YaftaMobile@objc(cs)YMAds",
+        "mangledName": "$s11YaftaMobile5YMAdsC",
+        "moduleName": "YaftaMobile",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "YaftaMobile",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "YMediaView",
+        "printedName": "YMediaView",
+        "declKind": "Class",
+        "usr": "c:@M@YaftaMobile@objc(cs)YMediaView",
+        "mangledName": "$s11YaftaMobile10YMediaViewC",
+        "moduleName": "YaftaMobile",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "YaftaMobile",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "YMNativeAdLoader",
+        "printedName": "YMNativeAdLoader",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "adCount",
+            "printedName": "adCount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@YaftaMobile@objc(cs)YMNativeAdLoader(py)adCount",
+            "mangledName": "$s11YaftaMobile16YMNativeAdLoaderC7adCountSivp",
+            "moduleName": "YaftaMobile",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@YaftaMobile@objc(cs)YMNativeAdLoader(im)adCount",
+                "mangledName": "$s11YaftaMobile16YMNativeAdLoaderC7adCountSivg",
+                "moduleName": "YaftaMobile",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "placementID",
+            "printedName": "placementID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@YaftaMobile@objc(cs)YMNativeAdLoader(py)placementID",
+            "mangledName": "$s11YaftaMobile16YMNativeAdLoaderC11placementIDSSvp",
+            "moduleName": "YaftaMobile",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@YaftaMobile@objc(cs)YMNativeAdLoader(im)placementID",
+                "mangledName": "$s11YaftaMobile16YMNativeAdLoaderC11placementIDSSvg",
+                "moduleName": "YaftaMobile",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "YaftaMobile.YMNativeAdLoaderDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "YMNativeAdLoaderDelegate",
+                    "printedName": "YaftaMobile.YMNativeAdLoaderDelegate",
+                    "usr": "c:@M@YaftaMobile@objc(pl)YMNativeAdLoaderDelegate"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@YaftaMobile@objc(cs)YMNativeAdLoader(py)delegate",
+            "mangledName": "$s11YaftaMobile16YMNativeAdLoaderC8delegateAA0cdE8Delegate_pSgvp",
+            "moduleName": "YaftaMobile",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "YaftaMobile.YMNativeAdLoaderDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YMNativeAdLoaderDelegate",
+                        "printedName": "YaftaMobile.YMNativeAdLoaderDelegate",
+                        "usr": "c:@M@YaftaMobile@objc(pl)YMNativeAdLoaderDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@YaftaMobile@objc(cs)YMNativeAdLoader(im)delegate",
+                "mangledName": "$s11YaftaMobile16YMNativeAdLoaderC8delegateAA0cdE8Delegate_pSgvg",
+                "moduleName": "YaftaMobile",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "YaftaMobile.YMNativeAdLoaderDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YMNativeAdLoaderDelegate",
+                        "printedName": "YaftaMobile.YMNativeAdLoaderDelegate",
+                        "usr": "c:@M@YaftaMobile@objc(pl)YMNativeAdLoaderDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@YaftaMobile@objc(cs)YMNativeAdLoader(im)setDelegate:",
+                "mangledName": "$s11YaftaMobile16YMNativeAdLoaderC8delegateAA0cdE8Delegate_pSgvs",
+                "moduleName": "YaftaMobile",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11YaftaMobile16YMNativeAdLoaderC8delegateAA0cdE8Delegate_pSgvM",
+                "mangledName": "$s11YaftaMobile16YMNativeAdLoaderC8delegateAA0cdE8Delegate_pSgvM",
+                "moduleName": "YaftaMobile",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(placementID:adCount:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "YMNativeAdLoader",
+                "printedName": "YaftaMobile.YMNativeAdLoader",
+                "usr": "c:@M@YaftaMobile@objc(cs)YMNativeAdLoader"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@YaftaMobile@objc(cs)YMNativeAdLoader(im)initWithPlacementID:adCount:",
+            "mangledName": "$s11YaftaMobile16YMNativeAdLoaderC11placementID7adCountACSS_Sitcfc",
+            "moduleName": "YaftaMobile",
+            "objc_name": "initWithPlacementID:adCount:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "load",
+            "printedName": "load()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@YaftaMobile@objc(cs)YMNativeAdLoader(im)load",
+            "mangledName": "$s11YaftaMobile16YMNativeAdLoaderC4loadyyF",
+            "moduleName": "YaftaMobile",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "YMNativeAdLoader",
+                "printedName": "YaftaMobile.YMNativeAdLoader",
+                "usr": "c:@M@YaftaMobile@objc(cs)YMNativeAdLoader"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@YaftaMobile@objc(cs)YMNativeAdLoader(im)init",
+            "mangledName": "$s11YaftaMobile16YMNativeAdLoaderCACycfc",
+            "moduleName": "YaftaMobile",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@YaftaMobile@objc(cs)YMNativeAdLoader",
+        "mangledName": "$s11YaftaMobile16YMNativeAdLoaderC",
+        "moduleName": "YaftaMobile",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "YaftaMobile",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "YaftaMobile",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "YaftaMobile"
+      },
+      {
+        "kind": "Import",
+        "name": "SafariServices",
+        "printedName": "SafariServices",
+        "declKind": "Import",
+        "moduleName": "YaftaMobile"
+      },
+      {
+        "kind": "Import",
+        "name": "StoreKit",
+        "printedName": "StoreKit",
+        "declKind": "Import",
+        "moduleName": "YaftaMobile"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "YMNativeAd",
+        "printedName": "YMNativeAd",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "YaftaMobile.YMNativeAdDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "YMNativeAdDelegate",
+                    "printedName": "YaftaMobile.YMNativeAdDelegate",
+                    "usr": "c:@M@YaftaMobile@objc(pl)YMNativeAdDelegate"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@YaftaMobile@objc(cs)YMNativeAd(py)delegate",
+            "mangledName": "$s11YaftaMobile10YMNativeAdC8delegateAA0cD8Delegate_pSgvp",
+            "moduleName": "YaftaMobile",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "YaftaMobile.YMNativeAdDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YMNativeAdDelegate",
+                        "printedName": "YaftaMobile.YMNativeAdDelegate",
+                        "usr": "c:@M@YaftaMobile@objc(pl)YMNativeAdDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@YaftaMobile@objc(cs)YMNativeAd(im)delegate",
+                "mangledName": "$s11YaftaMobile10YMNativeAdC8delegateAA0cD8Delegate_pSgvg",
+                "moduleName": "YaftaMobile",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "YaftaMobile.YMNativeAdDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "YMNativeAdDelegate",
+                        "printedName": "YaftaMobile.YMNativeAdDelegate",
+                        "usr": "c:@M@YaftaMobile@objc(pl)YMNativeAdDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@YaftaMobile@objc(cs)YMNativeAd(im)setDelegate:",
+                "mangledName": "$s11YaftaMobile10YMNativeAdC8delegateAA0cD8Delegate_pSgvs",
+                "moduleName": "YaftaMobile",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11YaftaMobile10YMNativeAdC8delegateAA0cD8Delegate_pSgvM",
+                "mangledName": "$s11YaftaMobile10YMNativeAdC8delegateAA0cD8Delegate_pSgvM",
+                "moduleName": "YaftaMobile",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "title",
+            "printedName": "title",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@YaftaMobile@objc(cs)YMNativeAd(py)title",
+            "mangledName": "$s11YaftaMobile10YMNativeAdC5titleSSvp",
+            "moduleName": "YaftaMobile",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@YaftaMobile@objc(cs)YMNativeAd(im)title",
+                "mangledName": "$s11YaftaMobile10YMNativeAdC5titleSSvg",
+                "moduleName": "YaftaMobile",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bodyText",
+            "printedName": "bodyText",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@YaftaMobile@objc(cs)YMNativeAd(py)bodyText",
+            "mangledName": "$s11YaftaMobile10YMNativeAdC8bodyTextSSvp",
+            "moduleName": "YaftaMobile",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@YaftaMobile@objc(cs)YMNativeAd(im)bodyText",
+                "mangledName": "$s11YaftaMobile10YMNativeAdC8bodyTextSSvg",
+                "moduleName": "YaftaMobile",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "clickToAction",
+            "printedName": "clickToAction",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@YaftaMobile@objc(cs)YMNativeAd(py)clickToAction",
+            "mangledName": "$s11YaftaMobile10YMNativeAdC13clickToActionSSvp",
+            "moduleName": "YaftaMobile",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@YaftaMobile@objc(cs)YMNativeAd(im)clickToAction",
+                "mangledName": "$s11YaftaMobile10YMNativeAdC13clickToActionSSvg",
+                "moduleName": "YaftaMobile",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cover",
+            "printedName": "cover",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11YaftaMobile10YMNativeAdC5coverSo7UIImageCvp",
+            "mangledName": "$s11YaftaMobile10YMNativeAdC5coverSo7UIImageCvp",
+            "moduleName": "YaftaMobile",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11YaftaMobile10YMNativeAdC5coverSo7UIImageCvg",
+                "mangledName": "$s11YaftaMobile10YMNativeAdC5coverSo7UIImageCvg",
+                "moduleName": "YaftaMobile",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11YaftaMobile10YMNativeAdC5coverSo7UIImageCvs",
+                "mangledName": "$s11YaftaMobile10YMNativeAdC5coverSo7UIImageCvs",
+                "moduleName": "YaftaMobile",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11YaftaMobile10YMNativeAdC5coverSo7UIImageCvM",
+                "mangledName": "$s11YaftaMobile10YMNativeAdC5coverSo7UIImageCvM",
+                "moduleName": "YaftaMobile",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "registerView",
+            "printedName": "registerView(viewController:adView:iconView:mediaView:clickableViews:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImageView",
+                "printedName": "UIKit.UIImageView",
+                "usr": "c:objc(cs)UIImageView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "YMediaView",
+                "printedName": "YaftaMobile.YMediaView",
+                "usr": "c:@M@YaftaMobile@objc(cs)YMediaView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UIKit.UIView]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@YaftaMobile@objc(cs)YMNativeAd(im)registerViewWithViewController:adView:iconView:mediaView:clickableViews:",
+            "mangledName": "$s11YaftaMobile10YMNativeAdC12registerView14viewController02adF004iconF005mediaF014clickableViewsySo06UIViewH0C_So0N0CSo07UIImageF0CAA06YMediaF0CSayAMGtF",
+            "moduleName": "YaftaMobile",
+            "objc_name": "registerViewWithViewController:adView:iconView:mediaView:clickableViews:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "YMNativeAd",
+                "printedName": "YaftaMobile.YMNativeAd",
+                "usr": "c:@M@YaftaMobile@objc(cs)YMNativeAd"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@YaftaMobile@objc(cs)YMNativeAd(im)init",
+            "mangledName": "$s11YaftaMobile10YMNativeAdCACycfc",
+            "moduleName": "YaftaMobile",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@YaftaMobile@objc(cs)YMNativeAd",
+        "mangledName": "$s11YaftaMobile10YMNativeAdC",
+        "moduleName": "YaftaMobile",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "YaftaMobile",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "YaftaMobile"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "YMLogger",
+        "printedName": "YMLogger",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "default",
+            "printedName": "default",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "YMLogger",
+                "printedName": "YaftaMobile.YMLogger",
+                "usr": "s:11YaftaMobile8YMLoggerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11YaftaMobile8YMLoggerC7defaultACvpZ",
+            "mangledName": "$s11YaftaMobile8YMLoggerC7defaultACvpZ",
+            "moduleName": "YaftaMobile",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "YMLogger",
+                    "printedName": "YaftaMobile.YMLogger",
+                    "usr": "s:11YaftaMobile8YMLoggerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11YaftaMobile8YMLoggerC7defaultACvgZ",
+                "mangledName": "$s11YaftaMobile8YMLoggerC7defaultACvgZ",
+                "moduleName": "YaftaMobile",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "osLog",
+            "printedName": "osLog",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OSLog",
+                "printedName": "os.OSLog",
+                "usr": "c:objc(cs)OS_os_log"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11YaftaMobile8YMLoggerC5osLogSo03OS_D4_logCvp",
+            "mangledName": "$s11YaftaMobile8YMLoggerC5osLogSo03OS_D4_logCvp",
+            "moduleName": "YaftaMobile",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OSLog",
+                    "printedName": "os.OSLog",
+                    "usr": "c:objc(cs)OS_os_log"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11YaftaMobile8YMLoggerC5osLogSo03OS_D4_logCvg",
+                "mangledName": "$s11YaftaMobile8YMLoggerC5osLogSo03OS_D4_logCvg",
+                "moduleName": "YaftaMobile",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isEnabled",
+            "printedName": "isEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11YaftaMobile8YMLoggerC9isEnabledSbvp",
+            "mangledName": "$s11YaftaMobile8YMLoggerC9isEnabledSbvp",
+            "moduleName": "YaftaMobile",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11YaftaMobile8YMLoggerC9isEnabledSbvg",
+                "mangledName": "$s11YaftaMobile8YMLoggerC9isEnabledSbvg",
+                "moduleName": "YaftaMobile",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11YaftaMobile8YMLoggerC9isEnabledSbvs",
+                "mangledName": "$s11YaftaMobile8YMLoggerC9isEnabledSbvs",
+                "moduleName": "YaftaMobile",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11YaftaMobile8YMLoggerC9isEnabledSbvM",
+                "mangledName": "$s11YaftaMobile8YMLoggerC9isEnabledSbvM",
+                "moduleName": "YaftaMobile",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(subsystem:category:formatter:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "YMLogger",
+                "printedName": "YaftaMobile.YMLogger",
+                "usr": "s:11YaftaMobile8YMLoggerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogFormatter",
+                "printedName": "YaftaMobile.LogFormatter",
+                "hasDefaultArg": true,
+                "usr": "s:11YaftaMobile12LogFormatterP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11YaftaMobile8YMLoggerC9subsystem8category9formatterACSS_SSAA12LogFormatter_ptcfc",
+            "mangledName": "$s11YaftaMobile8YMLoggerC9subsystem8category9formatterACSS_SSAA12LogFormatter_ptcfc",
+            "moduleName": "YaftaMobile",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Function",
+            "name": "msg",
+            "printedName": "msg(_:file:function:line:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> Swift.String",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StaticString",
+                "printedName": "Swift.StaticString",
+                "hasDefaultArg": true,
+                "usr": "s:s12StaticStringV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StaticString",
+                "printedName": "Swift.StaticString",
+                "hasDefaultArg": true,
+                "usr": "s:s12StaticStringV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "hasDefaultArg": true,
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11YaftaMobile8YMLoggerC3msg_4file8function4lineySSyXK_s12StaticStringVAISutF",
+            "mangledName": "$s11YaftaMobile8YMLoggerC3msg_4file8function4lineySSyXK_s12StaticStringVAISutF",
+            "moduleName": "YaftaMobile",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "info",
+            "printedName": "info(_:file:function:line:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> Swift.String",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StaticString",
+                "printedName": "Swift.StaticString",
+                "hasDefaultArg": true,
+                "usr": "s:s12StaticStringV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StaticString",
+                "printedName": "Swift.StaticString",
+                "hasDefaultArg": true,
+                "usr": "s:s12StaticStringV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "hasDefaultArg": true,
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11YaftaMobile8YMLoggerC4info_4file8function4lineySSyXK_s12StaticStringVAISutF",
+            "mangledName": "$s11YaftaMobile8YMLoggerC4info_4file8function4lineySSyXK_s12StaticStringVAISutF",
+            "moduleName": "YaftaMobile",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "debug",
+            "printedName": "debug(_:file:function:line:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> Swift.String",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StaticString",
+                "printedName": "Swift.StaticString",
+                "hasDefaultArg": true,
+                "usr": "s:s12StaticStringV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StaticString",
+                "printedName": "Swift.StaticString",
+                "hasDefaultArg": true,
+                "usr": "s:s12StaticStringV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "hasDefaultArg": true,
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11YaftaMobile8YMLoggerC5debug_4file8function4lineySSyXK_s12StaticStringVAISutF",
+            "mangledName": "$s11YaftaMobile8YMLoggerC5debug_4file8function4lineySSyXK_s12StaticStringVAISutF",
+            "moduleName": "YaftaMobile",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "error",
+            "printedName": "error(_:file:function:line:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> Swift.String",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StaticString",
+                "printedName": "Swift.StaticString",
+                "hasDefaultArg": true,
+                "usr": "s:s12StaticStringV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StaticString",
+                "printedName": "Swift.StaticString",
+                "hasDefaultArg": true,
+                "usr": "s:s12StaticStringV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "hasDefaultArg": true,
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11YaftaMobile8YMLoggerC5error_4file8function4lineySSyXK_s12StaticStringVAISutF",
+            "mangledName": "$s11YaftaMobile8YMLoggerC5error_4file8function4lineySSyXK_s12StaticStringVAISutF",
+            "moduleName": "YaftaMobile",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fault",
+            "printedName": "fault(_:file:function:line:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> Swift.String",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StaticString",
+                "printedName": "Swift.StaticString",
+                "hasDefaultArg": true,
+                "usr": "s:s12StaticStringV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StaticString",
+                "printedName": "Swift.StaticString",
+                "hasDefaultArg": true,
+                "usr": "s:s12StaticStringV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "hasDefaultArg": true,
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11YaftaMobile8YMLoggerC5fault_4file8function4lineySSyXK_s12StaticStringVAISutF",
+            "mangledName": "$s11YaftaMobile8YMLoggerC5fault_4file8function4lineySSyXK_s12StaticStringVAISutF",
+            "moduleName": "YaftaMobile",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "msg",
+            "printedName": "msg(_:file:function:line:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> Swift.String",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StaticString",
+                "printedName": "Swift.StaticString",
+                "hasDefaultArg": true,
+                "usr": "s:s12StaticStringV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StaticString",
+                "printedName": "Swift.StaticString",
+                "hasDefaultArg": true,
+                "usr": "s:s12StaticStringV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "hasDefaultArg": true,
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11YaftaMobile8YMLoggerC3msg_4file8function4lineySSyXK_s12StaticStringVAISutFZ",
+            "mangledName": "$s11YaftaMobile8YMLoggerC3msg_4file8function4lineySSyXK_s12StaticStringVAISutFZ",
+            "moduleName": "YaftaMobile",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "info",
+            "printedName": "info(_:file:function:line:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> Swift.String",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StaticString",
+                "printedName": "Swift.StaticString",
+                "hasDefaultArg": true,
+                "usr": "s:s12StaticStringV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StaticString",
+                "printedName": "Swift.StaticString",
+                "hasDefaultArg": true,
+                "usr": "s:s12StaticStringV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "hasDefaultArg": true,
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11YaftaMobile8YMLoggerC4info_4file8function4lineySSyXK_s12StaticStringVAISutFZ",
+            "mangledName": "$s11YaftaMobile8YMLoggerC4info_4file8function4lineySSyXK_s12StaticStringVAISutFZ",
+            "moduleName": "YaftaMobile",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "debug",
+            "printedName": "debug(_:file:function:line:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> Swift.String",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StaticString",
+                "printedName": "Swift.StaticString",
+                "hasDefaultArg": true,
+                "usr": "s:s12StaticStringV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StaticString",
+                "printedName": "Swift.StaticString",
+                "hasDefaultArg": true,
+                "usr": "s:s12StaticStringV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "hasDefaultArg": true,
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11YaftaMobile8YMLoggerC5debug_4file8function4lineySSyXK_s12StaticStringVAISutFZ",
+            "mangledName": "$s11YaftaMobile8YMLoggerC5debug_4file8function4lineySSyXK_s12StaticStringVAISutFZ",
+            "moduleName": "YaftaMobile",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "error",
+            "printedName": "error(_:file:function:line:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> Swift.String",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StaticString",
+                "printedName": "Swift.StaticString",
+                "hasDefaultArg": true,
+                "usr": "s:s12StaticStringV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StaticString",
+                "printedName": "Swift.StaticString",
+                "hasDefaultArg": true,
+                "usr": "s:s12StaticStringV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "hasDefaultArg": true,
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11YaftaMobile8YMLoggerC5error_4file8function4lineySSyXK_s12StaticStringVAISutFZ",
+            "mangledName": "$s11YaftaMobile8YMLoggerC5error_4file8function4lineySSyXK_s12StaticStringVAISutFZ",
+            "moduleName": "YaftaMobile",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fault",
+            "printedName": "fault(_:file:function:line:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> Swift.String",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "typeAttributes": [
+                  "noescape"
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StaticString",
+                "printedName": "Swift.StaticString",
+                "hasDefaultArg": true,
+                "usr": "s:s12StaticStringV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StaticString",
+                "printedName": "Swift.StaticString",
+                "hasDefaultArg": true,
+                "usr": "s:s12StaticStringV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "hasDefaultArg": true,
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11YaftaMobile8YMLoggerC5fault_4file8function4lineySSyXK_s12StaticStringVAISutFZ",
+            "mangledName": "$s11YaftaMobile8YMLoggerC5fault_4file8function4lineySSyXK_s12StaticStringVAISutFZ",
+            "moduleName": "YaftaMobile",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11YaftaMobile8YMLoggerC",
+        "mangledName": "$s11YaftaMobile8YMLoggerC",
+        "moduleName": "YaftaMobile",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LogFormatter",
+        "printedName": "LogFormatter",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "format",
+            "printedName": "format(type:message:file:function:line:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OSLogType",
+                "printedName": "os.OSLogType",
+                "usr": "c:@EA@os_log_type_t"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StaticString",
+                "printedName": "Swift.StaticString",
+                "usr": "s:s12StaticStringV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StaticString",
+                "printedName": "Swift.StaticString",
+                "usr": "s:s12StaticStringV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11YaftaMobile12LogFormatterP6format4type7message4file8function4lineSSSo07os_log_F2_ta_SSs12StaticStringVAMSutF",
+            "mangledName": "$s11YaftaMobile12LogFormatterP6format4type7message4file8function4lineSSSo07os_log_F2_ta_SSs12StaticStringVAMSutF",
+            "moduleName": "YaftaMobile",
+            "genericSig": "<τ_0_0 where τ_0_0 : YaftaMobile.LogFormatter>",
+            "sugared_genericSig": "<Self where Self : YaftaMobile.LogFormatter>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:11YaftaMobile12LogFormatterP",
+        "mangledName": "$s11YaftaMobile12LogFormatterP",
+        "moduleName": "YaftaMobile",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DefaultLogFormatter",
+        "printedName": "DefaultLogFormatter",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DefaultLogFormatter",
+                "printedName": "YaftaMobile.DefaultLogFormatter",
+                "usr": "s:11YaftaMobile19DefaultLogFormatterC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11YaftaMobile19DefaultLogFormatterCACycfc",
+            "mangledName": "$s11YaftaMobile19DefaultLogFormatterCACycfc",
+            "moduleName": "YaftaMobile",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "format",
+            "printedName": "format(type:message:file:function:line:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OSLogType",
+                "printedName": "os.OSLogType",
+                "usr": "c:@EA@os_log_type_t"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StaticString",
+                "printedName": "Swift.StaticString",
+                "usr": "s:s12StaticStringV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StaticString",
+                "printedName": "Swift.StaticString",
+                "usr": "s:s12StaticStringV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11YaftaMobile19DefaultLogFormatterC6format4type7message4file8function4lineSSSo07os_log_G2_ta_SSs12StaticStringVAMSutF",
+            "mangledName": "$s11YaftaMobile19DefaultLogFormatterC6format4type7message4file8function4lineSSSo07os_log_G2_ta_SSs12StaticStringVAMSutF",
+            "moduleName": "YaftaMobile",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11YaftaMobile19DefaultLogFormatterC",
+        "mangledName": "$s11YaftaMobile19DefaultLogFormatterC",
+        "moduleName": "YaftaMobile",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "LogFormatter",
+            "printedName": "LogFormatter",
+            "usr": "s:11YaftaMobile12LogFormatterP",
+            "mangledName": "$s11YaftaMobile12LogFormatterP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "YaftaMobile",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "YaftaMobile"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "YaftaMobile",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "YaftaMobile",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "YMNativeAdLoaderDelegate",
+        "printedName": "YMNativeAdLoaderDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didLoaded",
+            "printedName": "didLoaded(nativeAds:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[YaftaMobile.YMNativeAd]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "YMNativeAd",
+                    "printedName": "YaftaMobile.YMNativeAd",
+                    "usr": "c:@M@YaftaMobile@objc(cs)YMNativeAd"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@YaftaMobile@objc(pl)YMNativeAdLoaderDelegate(im)didLoadedWithNativeAds:",
+            "mangledName": "$s11YaftaMobile24YMNativeAdLoaderDelegateP9didLoaded9nativeAdsySayAA0cD0CG_tF",
+            "moduleName": "YaftaMobile",
+            "genericSig": "<τ_0_0 where τ_0_0 : YaftaMobile.YMNativeAdLoaderDelegate>",
+            "sugared_genericSig": "<Self where Self : YaftaMobile.YMNativeAdLoaderDelegate>",
+            "protocolReq": true,
+            "objc_name": "didLoadedWithNativeAds:",
+            "declAttributes": [
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didFailToLoad",
+            "printedName": "didFailToLoad(error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "YMAdError",
+                "printedName": "YaftaMobile.YMAdError",
+                "usr": "c:@M@YaftaMobile@objc(cs)YMAdError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@YaftaMobile@objc(pl)YMNativeAdLoaderDelegate(im)didFailToLoadWithError:",
+            "mangledName": "$s11YaftaMobile24YMNativeAdLoaderDelegateP13didFailToLoad5erroryAA9YMAdErrorC_tF",
+            "moduleName": "YaftaMobile",
+            "genericSig": "<τ_0_0 where τ_0_0 : YaftaMobile.YMNativeAdLoaderDelegate>",
+            "sugared_genericSig": "<Self where Self : YaftaMobile.YMNativeAdLoaderDelegate>",
+            "protocolReq": true,
+            "objc_name": "didFailToLoadWithError:",
+            "declAttributes": [
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@YaftaMobile@objc(pl)YMNativeAdLoaderDelegate",
+        "mangledName": "$s11YaftaMobile24YMNativeAdLoaderDelegateP",
+        "moduleName": "YaftaMobile",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "YaftaMobile",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreTelephony",
+        "printedName": "CoreTelephony",
+        "declKind": "Import",
+        "moduleName": "YaftaMobile"
+      },
+      {
+        "kind": "Import",
+        "name": "AppTrackingTransparency",
+        "printedName": "AppTrackingTransparency",
+        "declKind": "Import",
+        "moduleName": "YaftaMobile"
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "YaftaMobile"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "YaftaMobile"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "YaftaMobile",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "YMAdError",
+        "printedName": "YMAdError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "errorMessage",
+            "printedName": "errorMessage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@YaftaMobile@objc(cs)YMAdError(py)errorMessage",
+            "mangledName": "$s11YaftaMobile9YMAdErrorC12errorMessageSSvp",
+            "moduleName": "YaftaMobile",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@YaftaMobile@objc(cs)YMAdError(im)errorMessage",
+                "mangledName": "$s11YaftaMobile9YMAdErrorC12errorMessageSSvg",
+                "moduleName": "YaftaMobile",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorCode",
+            "printedName": "errorCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ErrorCode",
+                "printedName": "YaftaMobile.YMAdError.ErrorCode",
+                "usr": "s:11YaftaMobile9YMAdErrorC0D4CodeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@YaftaMobile@objc(cs)YMAdError(py)errorCode",
+            "mangledName": "$s11YaftaMobile9YMAdErrorC9errorCodeAC0dF0Ovp",
+            "moduleName": "YaftaMobile",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ErrorCode",
+                    "printedName": "YaftaMobile.YMAdError.ErrorCode",
+                    "usr": "s:11YaftaMobile9YMAdErrorC0D4CodeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@YaftaMobile@objc(cs)YMAdError(im)errorCode",
+                "mangledName": "$s11YaftaMobile9YMAdErrorC9errorCodeAC0dF0Ovg",
+                "moduleName": "YaftaMobile",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(errorCode:errorMessage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "YMAdError",
+                "printedName": "YaftaMobile.YMAdError",
+                "usr": "c:@M@YaftaMobile@objc(cs)YMAdError"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ErrorCode",
+                "printedName": "YaftaMobile.YMAdError.ErrorCode",
+                "usr": "s:11YaftaMobile9YMAdErrorC0D4CodeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11YaftaMobile9YMAdErrorC9errorCode0E7MessageA2C0dF0O_SStcfc",
+            "mangledName": "$s11YaftaMobile9YMAdErrorC9errorCode0E7MessageA2C0dF0O_SStcfc",
+            "moduleName": "YaftaMobile",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "ErrorCode",
+            "printedName": "ErrorCode",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "NO_FILL_ERROR",
+                "printedName": "NO_FILL_ERROR",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(YaftaMobile.YMAdError.ErrorCode.Type) -> YaftaMobile.YMAdError.ErrorCode",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorCode",
+                        "printedName": "YaftaMobile.YMAdError.ErrorCode",
+                        "usr": "s:11YaftaMobile9YMAdErrorC0D4CodeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "YaftaMobile.YMAdError.ErrorCode.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ErrorCode",
+                            "printedName": "YaftaMobile.YMAdError.ErrorCode",
+                            "usr": "s:11YaftaMobile9YMAdErrorC0D4CodeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11YaftaMobile9YMAdErrorC0D4CodeO13NO_FILL_ERRORyA2EmF",
+                "mangledName": "$s11YaftaMobile9YMAdErrorC0D4CodeO13NO_FILL_ERRORyA2EmF",
+                "moduleName": "YaftaMobile",
+                "declAttributes": [
+                  "RawDocComment",
+                  "ObjC"
+                ],
+                "fixedbinaryorder": 0
+              },
+              {
+                "kind": "Var",
+                "name": "NETWORK_ERROR",
+                "printedName": "NETWORK_ERROR",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(YaftaMobile.YMAdError.ErrorCode.Type) -> YaftaMobile.YMAdError.ErrorCode",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorCode",
+                        "printedName": "YaftaMobile.YMAdError.ErrorCode",
+                        "usr": "s:11YaftaMobile9YMAdErrorC0D4CodeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "YaftaMobile.YMAdError.ErrorCode.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ErrorCode",
+                            "printedName": "YaftaMobile.YMAdError.ErrorCode",
+                            "usr": "s:11YaftaMobile9YMAdErrorC0D4CodeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11YaftaMobile9YMAdErrorC0D4CodeO13NETWORK_ERRORyA2EmF",
+                "mangledName": "$s11YaftaMobile9YMAdErrorC0D4CodeO13NETWORK_ERRORyA2EmF",
+                "moduleName": "YaftaMobile",
+                "declAttributes": [
+                  "RawDocComment",
+                  "ObjC"
+                ],
+                "fixedbinaryorder": 1
+              },
+              {
+                "kind": "Var",
+                "name": "INVALID_REQUEST_ERROR",
+                "printedName": "INVALID_REQUEST_ERROR",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(YaftaMobile.YMAdError.ErrorCode.Type) -> YaftaMobile.YMAdError.ErrorCode",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorCode",
+                        "printedName": "YaftaMobile.YMAdError.ErrorCode",
+                        "usr": "s:11YaftaMobile9YMAdErrorC0D4CodeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "YaftaMobile.YMAdError.ErrorCode.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ErrorCode",
+                            "printedName": "YaftaMobile.YMAdError.ErrorCode",
+                            "usr": "s:11YaftaMobile9YMAdErrorC0D4CodeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11YaftaMobile9YMAdErrorC0D4CodeO21INVALID_REQUEST_ERRORyA2EmF",
+                "mangledName": "$s11YaftaMobile9YMAdErrorC0D4CodeO21INVALID_REQUEST_ERRORyA2EmF",
+                "moduleName": "YaftaMobile",
+                "declAttributes": [
+                  "RawDocComment",
+                  "ObjC"
+                ],
+                "fixedbinaryorder": 2
+              },
+              {
+                "kind": "Var",
+                "name": "INTERNAL_ERROR",
+                "printedName": "INTERNAL_ERROR",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(YaftaMobile.YMAdError.ErrorCode.Type) -> YaftaMobile.YMAdError.ErrorCode",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorCode",
+                        "printedName": "YaftaMobile.YMAdError.ErrorCode",
+                        "usr": "s:11YaftaMobile9YMAdErrorC0D4CodeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "YaftaMobile.YMAdError.ErrorCode.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ErrorCode",
+                            "printedName": "YaftaMobile.YMAdError.ErrorCode",
+                            "usr": "s:11YaftaMobile9YMAdErrorC0D4CodeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11YaftaMobile9YMAdErrorC0D4CodeO14INTERNAL_ERRORyA2EmF",
+                "mangledName": "$s11YaftaMobile9YMAdErrorC0D4CodeO14INTERNAL_ERRORyA2EmF",
+                "moduleName": "YaftaMobile",
+                "declAttributes": [
+                  "RawDocComment",
+                  "ObjC"
+                ],
+                "fixedbinaryorder": 3
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "YaftaMobile.YMAdError.ErrorCode?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ErrorCode",
+                        "printedName": "YaftaMobile.YMAdError.ErrorCode",
+                        "usr": "s:11YaftaMobile9YMAdErrorC0D4CodeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:11YaftaMobile9YMAdErrorC0D4CodeO8rawValueAESgSi_tcfc",
+                "mangledName": "$s11YaftaMobile9YMAdErrorC0D4CodeO8rawValueAESgSi_tcfc",
+                "moduleName": "YaftaMobile",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:11YaftaMobile9YMAdErrorC0D4CodeO8rawValueSivp",
+                "mangledName": "$s11YaftaMobile9YMAdErrorC0D4CodeO8rawValueSivp",
+                "moduleName": "YaftaMobile",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:11YaftaMobile9YMAdErrorC0D4CodeO8rawValueSivg",
+                    "mangledName": "$s11YaftaMobile9YMAdErrorC0D4CodeO8rawValueSivg",
+                    "moduleName": "YaftaMobile",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:11YaftaMobile9YMAdErrorC0D4CodeO",
+            "mangledName": "$s11YaftaMobile9YMAdErrorC0D4CodeO",
+            "moduleName": "YaftaMobile",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "enumRawTypeName": "Int",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "YMAdError",
+                "printedName": "YaftaMobile.YMAdError",
+                "usr": "c:@M@YaftaMobile@objc(cs)YMAdError"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@YaftaMobile@objc(cs)YMAdError(im)init",
+            "mangledName": "$s11YaftaMobile9YMAdErrorCACycfc",
+            "moduleName": "YaftaMobile",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@YaftaMobile@objc(cs)YMAdError",
+        "mangledName": "$s11YaftaMobile9YMAdErrorC",
+        "moduleName": "YaftaMobile",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "YaftaMobile",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "YaftaMobile"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "YaftaMobile",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "YaftaMobile"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "YaftaMobile",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "YaftaMobile"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "YaftaMobile",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OSLogType",
+        "printedName": "OSLogType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So13os_log_type_ta11YaftaMobileE11descriptionSSvp",
+            "mangledName": "$sSo13os_log_type_ta11YaftaMobileE11descriptionSSvp",
+            "moduleName": "YaftaMobile",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So13os_log_type_ta11YaftaMobileE11descriptionSSvg",
+                "mangledName": "$sSo13os_log_type_ta11YaftaMobileE11descriptionSSvg",
+                "moduleName": "YaftaMobile",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "c:@EA@os_log_type_t",
+        "moduleName": "os",
+        "declAttributes": [
+          "SynthesizedProtocol",
+          "SynthesizedProtocol"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 228,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 271,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMAds.swift",
+      "kind": "BooleanLiteral",
+      "offset": 318,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMAds.swift",
+      "kind": "StringLiteral",
+      "offset": 392,
+      "length": 7,
+      "value": "\"1.0.0\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMNativeAdLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 308,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMNativeAdLoader.swift",
+      "kind": "StringLiteral",
+      "offset": 158,
+      "length": 16,
+      "value": "\"YaftaMobile.YMNativeAdLoader\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMNativeAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1185,
+      "length": 2,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMNativeAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1263,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMNativeAd.swift",
+      "kind": "FloatLiteral",
+      "offset": 1335,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMNativeAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1519,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMNativeAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1566,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMNativeAd.swift",
+      "kind": "Array",
+      "offset": 1783,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMNativeAd.swift",
+      "kind": "StringLiteral",
+      "offset": 203,
+      "length": 10,
+      "value": "\"YaftaMobile.YMNativeAd\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMAdResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 851,
+      "length": 12,
+      "value": "\"request_id\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMAdResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 887,
+      "length": 12,
+      "value": "\"package_id\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMAdResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 919,
+      "length": 7,
+      "value": "\"title\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMAdResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 949,
+      "length": 11,
+      "value": "\"body_text\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMAdResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 983,
+      "length": 11,
+      "value": "\"cover_url\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMAdResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1016,
+      "length": 10,
+      "value": "\"icon_url\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMAdResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1062,
+      "length": 25,
+      "value": "\"impression_tracking_url\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMAdResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1117,
+      "length": 19,
+      "value": "\"open_tracking_url\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMAdResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1167,
+      "length": 20,
+      "value": "\"visit_tracking_url\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMAdResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1213,
+      "length": 14,
+      "value": "\"deeplink_url\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMAdResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1254,
+      "length": 15,
+      "value": "\"storelink_url\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMAdResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1287,
+      "length": 5,
+      "value": "\"cta\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMAdResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 851,
+      "length": 12,
+      "value": "\"request_id\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMAdResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 887,
+      "length": 12,
+      "value": "\"package_id\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMAdResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 919,
+      "length": 7,
+      "value": "\"title\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMAdResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 949,
+      "length": 11,
+      "value": "\"body_text\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMAdResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 983,
+      "length": 11,
+      "value": "\"cover_url\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMAdResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1016,
+      "length": 10,
+      "value": "\"icon_url\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMAdResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1062,
+      "length": 25,
+      "value": "\"impression_tracking_url\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMAdResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1117,
+      "length": 19,
+      "value": "\"open_tracking_url\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMAdResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1167,
+      "length": 20,
+      "value": "\"visit_tracking_url\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMAdResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1213,
+      "length": 14,
+      "value": "\"deeplink_url\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMAdResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1254,
+      "length": 15,
+      "value": "\"storelink_url\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMAdResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1287,
+      "length": 5,
+      "value": "\"cta\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 263,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 273,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMClient.swift",
+      "kind": "StringLiteral",
+      "offset": 389,
+      "length": 8,
+      "value": "\"tablet\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMClient.swift",
+      "kind": "StringLiteral",
+      "offset": 400,
+      "length": 7,
+      "value": "\"phone\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMClient.swift",
+      "kind": "StringLiteral",
+      "offset": 429,
+      "length": 7,
+      "value": "\"apple\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 702,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMClient.swift",
+      "kind": "StringLiteral",
+      "offset": 709,
+      "length": 3,
+      "value": "\"1\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMClient.swift",
+      "kind": "StringLiteral",
+      "offset": 715,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 764,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMClient.swift",
+      "kind": "StringLiteral",
+      "offset": 771,
+      "length": 3,
+      "value": "\"1\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMClient.swift",
+      "kind": "StringLiteral",
+      "offset": 777,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMClient.swift",
+      "kind": "StringLiteral",
+      "offset": 801,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMClient.swift",
+      "kind": "StringLiteral",
+      "offset": 816,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMClient.swift",
+      "kind": "StringLiteral",
+      "offset": 831,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMClient.swift",
+      "kind": "StringLiteral",
+      "offset": 854,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMClient.swift",
+      "kind": "StringLiteral",
+      "offset": 878,
+      "length": 7,
+      "value": "\"1.0.0\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMAdError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1058,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMAdError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1166,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMAdError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1255,
+      "length": 3,
+      "value": "300"
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMAdError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1352,
+      "length": 3,
+      "value": "400"
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMAdError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1058,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMAdError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1166,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMAdError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1255,
+      "length": 3,
+      "value": "300"
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMAdError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1352,
+      "length": 3,
+      "value": "400"
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMAdError.swift",
+      "kind": "StringLiteral",
+      "offset": 265,
+      "length": 9,
+      "value": "\"YaftaMobile.YMAdError\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/utils\/Connection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 373,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMRequestUrlGenerator.swift",
+      "kind": "StringLiteral",
+      "offset": 181,
+      "length": 7,
+      "value": "\"appid\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMRequestUrlGenerator.swift",
+      "kind": "StringLiteral",
+      "offset": 233,
+      "length": 13,
+      "value": "\"placementid\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMRequestUrlGenerator.swift",
+      "kind": "StringLiteral",
+      "offset": 290,
+      "length": 13,
+      "value": "\"sdk_version\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMRequestUrlGenerator.swift",
+      "kind": "StringLiteral",
+      "offset": 351,
+      "length": 5,
+      "value": "\"tzo\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMRequestUrlGenerator.swift",
+      "kind": "StringLiteral",
+      "offset": 400,
+      "length": 4,
+      "value": "\"tz\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMRequestUrlGenerator.swift",
+      "kind": "StringLiteral",
+      "offset": 448,
+      "length": 3,
+      "value": "\"o\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMRequestUrlGenerator.swift",
+      "kind": "StringLiteral",
+      "offset": 503,
+      "length": 5,
+      "value": "\"mcc\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMRequestUrlGenerator.swift",
+      "kind": "StringLiteral",
+      "offset": 560,
+      "length": 5,
+      "value": "\"mnc\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMRequestUrlGenerator.swift",
+      "kind": "StringLiteral",
+      "offset": 610,
+      "length": 14,
+      "value": "\"country_code\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMRequestUrlGenerator.swift",
+      "kind": "StringLiteral",
+      "offset": 670,
+      "length": 8,
+      "value": "\"bundle\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMRequestUrlGenerator.swift",
+      "kind": "StringLiteral",
+      "offset": 723,
+      "length": 14,
+      "value": "\"device_model\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMRequestUrlGenerator.swift",
+      "kind": "StringLiteral",
+      "offset": 781,
+      "length": 13,
+      "value": "\"device_make\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMRequestUrlGenerator.swift",
+      "kind": "StringLiteral",
+      "offset": 838,
+      "length": 13,
+      "value": "\"device_type\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMRequestUrlGenerator.swift",
+      "kind": "StringLiteral",
+      "offset": 892,
+      "length": 10,
+      "value": "\"platform\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMRequestUrlGenerator.swift",
+      "kind": "StringLiteral",
+      "offset": 951,
+      "length": 18,
+      "value": "\"platform_version\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMRequestUrlGenerator.swift",
+      "kind": "StringLiteral",
+      "offset": 1005,
+      "length": 6,
+      "value": "\"idfa\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMRequestUrlGenerator.swift",
+      "kind": "StringLiteral",
+      "offset": 1057,
+      "length": 15,
+      "value": "\"device_locale\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMRequestUrlGenerator.swift",
+      "kind": "StringLiteral",
+      "offset": 1119,
+      "length": 5,
+      "value": "\"dnt\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMRequestUrlGenerator.swift",
+      "kind": "StringLiteral",
+      "offset": 1165,
+      "length": 12,
+      "value": "\"adquantity\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMRequestUrlGenerator.swift",
+      "kind": "StringLiteral",
+      "offset": 1225,
+      "length": 6,
+      "value": "\"wifi\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMRequestUrlGenerator.swift",
+      "kind": "StringLiteral",
+      "offset": 1273,
+      "length": 4,
+      "value": "\"em\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMRequestUrlGenerator.swift",
+      "kind": "StringLiteral",
+      "offset": 1336,
+      "length": 7,
+      "value": "\"https\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMRequestUrlGenerator.swift",
+      "kind": "StringLiteral",
+      "offset": 1395,
+      "length": 24,
+      "value": "\"serve5.yaftamobile.com\""
+    },
+    {
+      "filePath": "\/Users\/vaio\/work\/projects\/yaftamobile\/YaftaMobile-framework\/YaftaMobile\/YMRequestUrlGenerator.swift",
+      "kind": "StringLiteral",
+      "offset": 1460,
+      "length": 8,
+      "value": "\"\/getad\""
+    }
+  ]
+}

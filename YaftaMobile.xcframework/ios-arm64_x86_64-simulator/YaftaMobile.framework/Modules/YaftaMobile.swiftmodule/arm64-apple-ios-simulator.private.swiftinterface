@@ -1,0 +1,145 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name YaftaMobile
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AdSupport
+import AppTrackingTransparency
+import CoreTelephony
+import Foundation
+import Network
+import SafariServices
+import StoreKit
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import os
+@_inheritsConvenienceInitializers @objc public class YMConfig : ObjectiveC.NSObject {
+  @objc public var loggingEnabled: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public var testModeEnabled: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public protocol YMNativeAdDelegate {
+  @objc func didClicked(nativeAd: YaftaMobile.YMNativeAd)
+  @objc func didRecordImpression(nativeAd: YaftaMobile.YMNativeAd)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class YMAds : ObjectiveC.NSObject {
+  final public let SDK_VERSION: Swift.String
+  public var config: YaftaMobile.YMConfig? {
+    get
+  }
+  public var appID: Swift.String? {
+    get
+  }
+  public var initialized: Swift.Bool {
+    get
+  }
+  @objc public static func initialize(appID: Swift.String)
+  public static func initialize(appID: Swift.String, config: YaftaMobile.YMConfig?)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class YMediaView : UIKit.UIView {
+  @objc deinit
+}
+@objc public class YMNativeAdLoader : ObjectiveC.NSObject {
+  @objc public var adCount: Swift.Int {
+    @objc get
+  }
+  @objc public var placementID: Swift.String {
+    @objc get
+  }
+  @objc public var delegate: YaftaMobile.YMNativeAdLoaderDelegate? {
+    @objc get
+    @objc set
+  }
+  @objc public init(placementID: Swift.String, adCount: Swift.Int)
+  @objc public func load()
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers public class YMNativeAd : ObjectiveC.NSObject, StoreKit.SKStoreProductViewControllerDelegate {
+  @objc public var delegate: YaftaMobile.YMNativeAdDelegate? {
+    @objc get
+    @objc set
+  }
+  @objc public var title: Swift.String {
+    @objc get
+  }
+  @objc public var bodyText: Swift.String {
+    @objc get
+  }
+  @objc public var clickToAction: Swift.String {
+    @objc get
+  }
+  public var cover: UIKit.UIImage
+  @objc public func registerView(viewController: UIKit.UIViewController, adView: UIKit.UIView, iconView: UIKit.UIImageView, mediaView: YaftaMobile.YMediaView, clickableViews: [UIKit.UIView])
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class YMLogger {
+  public static let `default`: YaftaMobile.YMLogger
+  final public let osLog: os.OSLog
+  public var isEnabled: Swift.Bool
+  convenience public init(subsystem: Swift.String, category: Swift.String, formatter: YaftaMobile.LogFormatter = DefaultLogFormatter())
+  @objc deinit
+}
+extension YaftaMobile.YMLogger {
+  public func msg(_ message: @autoclosure () -> Swift.String, file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line)
+  public func info(_ message: @autoclosure () -> Swift.String, file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line)
+  public func debug(_ message: @autoclosure () -> Swift.String, file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line)
+  public func error(_ message: @autoclosure () -> Swift.String, file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line)
+  public func fault(_ message: @autoclosure () -> Swift.String, file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line)
+}
+extension YaftaMobile.YMLogger {
+  public static func msg(_ message: @autoclosure () -> Swift.String, file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line)
+  public static func info(_ message: @autoclosure () -> Swift.String, file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line)
+  public static func debug(_ message: @autoclosure () -> Swift.String, file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line)
+  public static func error(_ message: @autoclosure () -> Swift.String, file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line)
+  public static func fault(_ message: @autoclosure () -> Swift.String, file: Swift.StaticString = #file, function: Swift.StaticString = #function, line: Swift.UInt = #line)
+}
+public protocol LogFormatter {
+  func format(type: os.OSLogType, message: Swift.String, file: Swift.StaticString, function: Swift.StaticString, line: Swift.UInt) -> Swift.String
+}
+public class DefaultLogFormatter : YaftaMobile.LogFormatter {
+  public init()
+  public func format(type: os.OSLogType, message: Swift.String, file: Swift.StaticString, function: Swift.StaticString, line: Swift.UInt) -> Swift.String
+  @objc deinit
+}
+extension os.OSLogType : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+@objc public protocol YMNativeAdLoaderDelegate : ObjectiveC.NSObjectProtocol {
+  @objc func didLoaded(nativeAds: [YaftaMobile.YMNativeAd])
+  @objc func didFailToLoad(error: YaftaMobile.YMAdError)
+}
+@objc public class YMAdError : ObjectiveC.NSObject {
+  @objc public var errorMessage: Swift.String {
+    @objc get
+  }
+  @objc public var errorCode: YaftaMobile.YMAdError.ErrorCode {
+    @objc get
+  }
+  public init(errorCode: YaftaMobile.YMAdError.ErrorCode, errorMessage: Swift.String)
+  @objc public enum ErrorCode : Swift.Int {
+    case NO_FILL_ERROR = 100
+    case NETWORK_ERROR = 200
+    case INVALID_REQUEST_ERROR = 300
+    case INTERNAL_ERROR = 400
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  @objc deinit
+}
+extension YaftaMobile.YMAdError.ErrorCode : Swift.Equatable {}
+extension YaftaMobile.YMAdError.ErrorCode : Swift.Hashable {}
+extension YaftaMobile.YMAdError.ErrorCode : Swift.RawRepresentable {}

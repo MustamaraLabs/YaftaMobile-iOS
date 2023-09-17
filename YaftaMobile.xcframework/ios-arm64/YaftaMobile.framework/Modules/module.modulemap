@@ -1,0 +1,4 @@
+framework module YaftaMobile {
+  header "YaftaMobile-Swift.h"
+  requires objc
+}
